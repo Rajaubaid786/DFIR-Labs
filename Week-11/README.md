@@ -1,7 +1,7 @@
-# 🧪 Week 11 – Email Forensics & Super Timeline Analysis
+# 🧪 Week 11 – Email Forensics, Timeline Reconstruction & Insider Threat Investigation
 
 ![Email Forensics](https://img.shields.io/badge/Email-Forensics-blue)
-![Timeline Analysis](https://img.shields.io/badge/Super-Timeline-success)
+![Timeline Analysis](https://img.shields.io/badge/Timeline-Reconstruction-success)
 ![DFIR](https://img.shields.io/badge/DFIR-Investigation-red)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 
@@ -9,20 +9,21 @@
 
 ## 📖 Overview
 
-During Week 11 of the Cyberster DFIR Internship, I investigated a simulated insider data leak by combining email forensics, Windows host artifacts, and super timeline analysis. The investigation focused on reconstructing the complete sequence of events surrounding a confidential spreadsheet, validating user claims through forensic evidence, and producing a defensible investigation narrative supported by multiple independent artifact sources.
+During Week 11 of the Cyberster DFIR Internship, I conducted a forensic investigation into a suspected insider data leak by analyzing email artifacts, Windows host evidence, and timeline data. The investigation focused on validating user activity through multiple independent evidence sources, reconstructing the sequence of events, and producing evidence-backed findings using industry-standard forensic methodologies.
 
 ---
 
 ## 🎯 Objectives
 
-- Extract and analyze email archives
-- Examine email headers and recipient metadata
-- Investigate Windows LNK artifacts
-- Analyze Microsoft Excel Prefetch records
-- Examine RecentDocs Registry artifacts
-- Generate and filter a Super Timeline
-- Correlate email evidence with host-based artifacts
-- Produce a complete forensic investigation report
+- Investigate Outlook email artifacts
+- Analyze email headers and message metadata
+- Examine Windows RecentDocs Registry artifacts
+- Analyze Windows Prefetch files
+- Investigate Shell Link (LNK) artifacts
+- Generate and analyze a Super Timeline
+- Correlate host-based and email evidence
+- Reconstruct the complete sequence of user activity
+- Produce a professional forensic investigation report
 
 ---
 
@@ -34,27 +35,30 @@ During Week 11 of the Cyberster DFIR Internship, I investigated a simulated insi
 - PECmd
 - LECmd
 - Timeline Explorer
-- Microsoft Outlook Artifacts
+- Microsoft Outlook
 - Windows Registry
+- Windows Forensic Artifacts
 
 ---
 
 ## 📂 Files Included
 
 - 📄 DFIR_Week_11_TaskBrief – Official internship task brief.
-- 📑 DFIR_Report_Week_11 – Technical investigation report containing methodology, screenshots, forensic findings, timeline reconstruction, and final conclusions.
+- 📑 DFIR_Report_Week_11 – Complete forensic investigation report containing methodology, screenshots, evidence analysis, artifact correlation, timeline reconstruction, and final conclusions.
 
 ---
 
 ## 📈 Skills Developed
 
 - Email Forensics
+- Outlook Artifact Analysis
 - Email Header Analysis
-- Super Timeline Analysis
-- Timeline Reconstruction
-- LNK File Analysis
+- Windows Registry Forensics
 - Windows Prefetch Analysis
-- Registry Forensics
+- Shell Link (LNK) Analysis
+- Timeline Reconstruction
 - Artifact Correlation
+- Insider Threat Investigation
 - Evidence Validation
-- Digital Forensics Investigation
+- Technical Documentation
+- Digital Forensics & Incident Response (DFIR)
